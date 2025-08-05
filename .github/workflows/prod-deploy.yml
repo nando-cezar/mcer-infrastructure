@@ -1,0 +1,68 @@
+name: CI/CD McEr Infrastructure & Services
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'services/**'           # código dos microserviços (em repositórios separados, usar triggers indiretos)
+      - 'k8s/base/**'
+      - 'k8s/overlays/**'
+      - '.github/workflows/**'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: mcer-deploy
+      cancel-in-progress: true
+
+    permissions:
+      contents: read
+      packages: write
+      id-token: write
+
+    env:
+      GKE_CLUSTER: mcer-cluster
+      GKE_ZONE: southamerica-east1-a
+      GKE_PROJECT: ${{ secrets.GCP_PROJECT_ID }}
+      K8S_NAMESPACE: mcer-core
+
+    steps:
+      - name: Checkout infra repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git to detect changes
+        run: |
+          git fetch --prune --unshallow || true
+
+      - name: Determine changed services
+        id: changes
+        run: |
+          # adapt to path where services live; expects services code updated via Git submodule/upstream triggers
+          echo "::set-output name=services::auth-service user-service product-service company-service geoenergy-service contract-service api-gateway"
+
+      - name: Authenticate to GHCR
+        run: echo "${{ github.token }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+
+      - name: Set up Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          project_id: ${{ secrets.GCP_PROJECT_ID }}
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          export_default_credentials: true
+
+      - name: Get GKE credentials
+        run: |
+          gcloud container clusters get-credentials $GKE_CLUSTER --zone $GKE_ZONE --project $GKE_PROJECT
+
+      - name: Deploy changed services
+        run: |
+          # Example for auth-service; in practice, loop over detected changed services
+          IMAGE_TAG=${{ github.sha }}
+          # Replace image tag in prod overlay using envsubst or kustomize image override
+          kustomize edit set image ghcr.io/${{ github.repository_owner }}/auth-service=ghcr.io/${{ github.repository_owner }}/auth-service:${IMAGE_TAG} -k overlays/prod/auth-service
+          # Apply overlay for prod
+          kustomize build overlays/prod | kubectl apply -f -
+          kubectl rollout status deployment/auth-service -n $K8S_NAMESPACE
