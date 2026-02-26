@@ -1,0 +1,185 @@
+NOME;CONCESSION;ANO_OPERA;TENSAO;LONGITUDE;LATITUDE;CPU
+SE Barra II;;-;500;0;0
+SE Buritizeiro 3;;-;500;0;0
+SE Erechim 3;;;525/138;0;0
+SE Coletora Sertão Solar Barreiras II;;;500;0;0
+SE Coletora Trindade;;;230;0;0
+SE Aurora 2;-;-;500;0;0
+SE Videira Sul;;2037;230;0;0
+SE Joinville Norte 2;-;2034;230/138;0;0
+SE Chateau Fort;;-;500;0;0
+SE UFVs Lins;;;230;0;0
+SE Porto Alegre 21;;2037;230;0;0
+SE UFV Cascudo;;-;230;0;0
+SE UFVs Açucena;;;500;0;0
+SE GNA II;;-;500;0;0
+SE Paranaíba;;;230;0;0
+SE Nelore;;-;230;0;0
+SE Equador;TRANSNORTE - TRANSNORTE ENERGIA SA;2025;500;0;0
+SE Lajeado Grande 2;;2030;230;0;0
+SE Pedra de Amolar;;;230;0;0
+SE Bom Nome II;;-;500/230;0;0
+SE Scala III;;;230;0;0
+SE Caladinho II;-;2025;230/138;0;0
+SE Dom Pedro I;;2026;230;0;0
+SE UFV Barro Alto;;;230;0;0
+SE Cajueiro;;-;500;0;0
+SE Maestro;;;230;0;0
+SE UFVs Leo Silveira 21 a 40;;;500;0;0
+SE Frei Damião;;;230;0;0
+SE Matrinchã 2;;;230;0;0
+SE Botuquara;BOTUQUARA - Centrais Elétricas Botuquara Ltda.;-;230;0;0
+SE Campo Formoso II;;-;500;0;0
+SE Curitiba Oeste;;2033;525/230;0;0
+SE UFV Timbaúba;;;500;0;0
+SE Litorânea;;2027;525;0;0
+SE UFV Berço das Gerais;;;500;0;0
+SE Irapuru;;-;500;0;0
+SE Sento Sé I;;;500;0;0
+SE Serra da Palmeira;;;500;0;0
+SE UFV Seriemas;;;230;0;0
+SE Itaguaçu;-;-;230;0;0
+SE Maracaju 2;-;2037;230/138;0;0
+SE Cloud HQ;;-;440;0;0
+SE Ivoti 2;;2030;230;0;0
+SE EOL Ventos de Santa Esperança;;;500;0;0
+SE Morada Nova;;-;500/230;0;0
+SE Talismã;;;230;0;0
+SE UFV Chapadão;;;230;0;0
+SE Abdon Batista 2;;2030;525;0;0
+SE São João do Piauí II;;-;500;0;0
+SE Bom Lugar Norte;;-;230;0;0
+SE Ipupiara;;;500;0;0
+SE EDN Barreiras;;;500;0;0
+SE Sento Sé II;;;500;0;0
+SE Coxilha Negra 3;;;230;0;0
+SE Serra da Ibiapaba;;;230;0;0
+SE Pitimbu;-;-;230;0;0
+SE UFV Sky São Mamede;;-;500;0;0
+SE Tarumã;-;2026;230;0;0
+SE UFV Jaguar;;;230;0;0
+SE UFV Leo Silveira;;-;345;0;0
+SE Correntina;;-;500;0;0
+SE UFVs Lagoinha;;;230;0;0
+SE Araguaia Níquel Metais;;-;230;0;0
+SE UFVs Walfrido Avila;;;500;0;0
+SE Altitude;;-;230;0;0
+SE Goianira;;2037;230/138;0;0
+SE UFV Sky Arinos;;;500;0;0
+SE Vista Alegre;;-;500;0;0
+SE Rio Formoso IV;;;230;0;0
+SE UFV Humaita;;;230;0;0
+SE UTE Novo Tempo;;-;230;0;0
+SE São Caetano do Sul;;2026;345;0;0
+SE UTE Portocem;;;500;0;0
+SE UFV Murion;;-;500;0;0
+SE CFV Cobra;;;500;0;0
+SE Dom Eliseu II;;-;230/69;0;0
+SE Coletora Zebu;;;230;0;0
+SE Porto do Açu;;-;345/138;0;0
+SE Estância;;;440;0;0
+SE Elevadora Umari;;;230;0;0
+SE Novo Progresso;;2027;230/138;0;0
+SE Esquina do Vento;;;230;0;0
+SE Teresina IV;;-;500;0;0
+SE Arauco;;;230;0;0
+SE UFV Infinito;;;500;0;0
+SE Coletora Janaúba;;-;500;0;0
+SE Palmas 2;;;230;0;0
+SE Serra Talhada;;-;230;0;0
+SE Pedro Avelino Norte;;;500;0;0
+SE Paraíso;;;230;0;0
+SE Domênico Rangoni;ELTE - EMPRESA LITORANEA DE TRANSMISSAO DE ENERGIA S.A. - ELTE;2025;345/138;0;0
+SE Taboleiro do Meio;;-;230;0;0
+SE Crato;;2023;230;0;0
+SE UFV Seridó;;;230;0;0
+SE Iguaçu;;-;525/230;0;0
+SE Campo Grande 3;-;2037;230/138;0;0
+SE Porangatu 2;;;500;0;0
+SE Nova Extrema;;;500;0;0
+SE Pilões III;;-;230;0;0
+SE Curitiba Sul;;2037;230;0;0
+SE UFV Novo Lapa;;-;500;0;0
+SE Cassilândia II;;-;230;0;0
+SE Assú Sol;;;500;0;0
+SE Bom Jardim;;;230;0;0
+SE Curupira;-;-;230;0;0
+SE UFV Rio Brilhante;;;230;0;0
+SE UFV Ouro;;-;500;0;0
+SE Uberlândia 02;;;230;0;0
+SE Babilônia Centro;;;230;0;0
+SE Porto Alegre 19;;2030;230;0;0
+SE Gameleira;;-;230;0;0
+SE UFV Panorama;;;500;0;0
+SE Coletora UFV São Gabriel;;;230;0;0
+SE UTE Azulão;;;500;0;0
+SE Capelinha 3;;-;500;0;0
+SE Chapecoense;;2037;230;0;0
+SE Coletora PJ I;;;500;0;0
+SE Concórdia;;2033;230;0;0
+SE Seccionadora UFV Verdão;;;230;0;0
+SE Jaraguá do Sul;-;2025;230/138;0;0
+SE Aurora 3;;-;230;0;0
+SE Mauriti;;-;230;0;0
+SE São Sebastião do Caí 2;;2030;230;0;0
+SE Barra do Mendes;;-;230;0;0
+SE Boa Vista do Buricá 2;;;230/69;0;0
+SE Barigui 2;;2027;230;0;0
+SE EOL Pedra Pintada;;;500;0;0
+SE Elevadora BRX Janaúba;-;-;500;0;0
+SE Serra das Almas I;;;500;0;0
+SE Coletora Presidente JK;;;345;0;0
+SE Solar Newen Bahia;;-;500;0;0
+SE Iaciara 2;;2028;230/138;0;0
+SE UFV Alto São Francisco;;;230;0;0
+SE Zebu III;;-;500/230;0;0
+SE UTE Portocem;;;500;0;0
+SE UFV Luzeiro;;;230;0;0
+SE São Miguel;;2026;345;0;0
+SE UFVs Boa Sorte;;;500;0;0
+SE Nova Ponte 3;;-;500;0;0
+SE Castanha;;;500;0;0
+SE Coletora Paripiranga;;;230;0;0
+SE UFVs Velho Chico;;;345;0;0
+SE Nossa Senhora da Glória II;;-;230;0;0
+SE Alcaçuz;EOL ALCAÇUZ - CENTRAIS EÓLICAS ALCAÇUZ S.A.;-;230;0;0
+SE UFV Solidão;;;500;0;0
+SE Piauí Níquel Metais;;;230;0;0
+SE UFV Coralina;;;230;0;0
+SE Sete Pontes;;2026;345;0;0
+SE Jussiape;;-;500;0;0
+SE Santa Luzia III;;-;500/230/138;0;0
+SE Coletora Caucaia;;;230;0;0
+SE Pudong;;;230;0;0
+SE Elevadora UFV Graviola;;-;230;0;0
+SE Punaú;-;-;230;0;0
+SE Cristo Rei;;;230;0;0
+SE Graça Aranha;-;2028;800/500;0;0
+SE Morada do Sol;;-;230;0;0
+SE UFV Olho do Sol;;;230;0;0
+SE Morro III;;;500;0;0
+SE Porto Alegre Sul;;2030;525/230;0;0
+SE Cuiabá Norte;;2026;500;0;0
+SE UFV Acácia;;;500;0;0
+SE Formosa do Rio Preto;;;230;0;0
+SE Campos;;;500;0;0
+SE Madri;;-;230;0;0
+SE Serra das Almas II;;;500;0;0
+SE Coxilha Negra 2;;;230;0;0
+SE Descanso;;2037;230;0;0
+SE Vilhena 2;;;230;0;0
+SE Joinville Sul;-;2025;525/230/138;0;0
+SE Iguatemi 2;;2024;230;0;0
+SE Dias Macedo II;;2026;230;0;0
+SE Crateús;;-;500;0;0
+SE Serra da Borborema;;;230;0;0
+SE UFVs Draco Solar;;;500;0;0
+SE Cachimbo;;2027;230;0;0
+SE Ilhota 2;-;2034;230;0;0
+SE Belo Horizonte;;-;230;0;0
+SE Elevadora UFV Verdão;;;230;0;0
+SE Coletora UFV Arapuá;;;230;0;0
+SE São João do Paraíso;;-;500;0;0
+SE Santo Amaro da Imperatriz;;2033;230/138;0;0
+SE Janauba 6;;-;500;0;0
+SE Bonito;;;500;0;0
